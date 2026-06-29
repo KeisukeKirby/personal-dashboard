@@ -1,0 +1,34 @@
+.theme-selector {
+  display: flex;
+  gap: 8px;
+  background-color: var(--secondary-bg);
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+}
+
+.theme-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  color: var(--text-color);
+  opacity: 0.6;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-btn:hover {
+  opacity: 0.8;
+  background-color: var(--border-color);
+}
+
+.theme-btn.active {
+  opacity: 1;
+  color: var(--primary-color);
+  background-color: var(--border-color);
+}
