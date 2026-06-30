@@ -79,17 +79,24 @@ const HabitTracker = () => {
         </div>
 
         <div className="daily-flow">
-          <h2>脳科学にもとづく最高の1日</h2>
+          <h2>理想の1日のスケジュール</h2>
           <ul className="timeline">
-            <li><span className="time">23:00 - 07:00</span> <span className="desc">7時間以上の睡眠 (メラトニン)</span></li>
-            <li><span className="time">07:00 - 09:00</span> <span className="desc">自己投資 (脳のゴールデンタイム)</span></li>
-            <li><span className="time">09:00 - 12:00</span> <span className="desc">集中時間 (缶詰)</span></li>
-            <li><span className="time">12:00 - 13:00</span> <span className="desc">ランチ (セロトニン)</span></li>
-            <li><span className="time">13:00 - 16:00</span> <span className="desc">非集中仕事 (仮眠・こまめにリセット)</span></li>
-            <li><span className="time">16:00 - 18:00</span> <span className="desc">ラストスパート (場所替え・ノルアドレナリン)</span></li>
-            <li><span className="time">18:00 - 19:00</span> <span className="desc">運動 (脳をリセット)</span></li>
-            <li><span className="time">19:00 - 21:00</span> <span className="desc">自己投資 (脳のゴールデンタイム2)</span></li>
-            <li><span className="time">21:00 - 23:00</span> <span className="desc">リラックスタイム (オキシトシン)</span></li>
+            <li><span className="time">23:00 - 06:30</span> <span className="desc">7時間以上の睡眠 (メラトニン)</span></li>
+            <li><span className="time">06:30 - 07:00</span> <span className="desc">洗顔、自己暗示、運動、瞑想</span></li>
+            <li><span className="time">07:00 - 08:00</span> <span className="desc">自己投資 (脳のゴールデンタイム)</span></li>
+            <li><span className="time">08:00 - 08:20</span> <span className="desc">出勤準備</span></li>
+            <li><span className="time">08:20 - 08:40</span> <span className="desc">出勤</span></li>
+            <li><span className="time">08:40 - 09:00</span> <span className="desc">仕事準備</span></li>
+            <li><span className="time">09:00 - 12:30</span> <span className="desc">集中時間 (缶詰)</span></li>
+            <li><span className="time">12:30 - 13:30</span> <span className="desc">ランチ (セロトニン)</span></li>
+            <li><span className="time">13:30 - 16:00</span> <span className="desc">非集中仕事 (こまめにリセット)</span></li>
+            <li><span className="time">16:00 - 18:00</span> <span className="desc">ラストスパート (ノルアドレナリン)</span></li>
+            <li><span className="time">18:00 - 18:20</span> <span className="desc">本日の振り返り、翌日の予定確認、それ以降の確認</span></li>
+            <li><span className="time">18:20 - 18:40</span> <span className="desc">退勤</span></li>
+            <li><span className="time">18:40 - 19:30</span> <span className="desc">運動 (脳をリセット)</span></li>
+            <li><span className="time">19:30 - 21:00</span> <span className="desc">自己投資 (脳のゴールデンタイム2)</span></li>
+            <li><span className="time">21:00 - 22:30</span> <span className="desc">リラックスタイム (オキシトシン)</span></li>
+            <li><span className="time">22:30 - 23:00</span> <span className="desc">ジャーナリング、就寝準備、瞑想</span></li>
           </ul>
         </div>
       </div>
