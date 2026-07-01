@@ -4,7 +4,8 @@ import ThemeSelector from './components/ThemeSelector';
 import HabitTracker from './components/HabitTracker';
 import GoalBoard from './components/GoalBoard';
 import TravelList from './components/TravelList';
-import { FaCheckSquare, FaBullseye, FaGlobeAmericas } from 'react-icons/fa';
+import LifeCountdown from './components/LifeCountdown';
+import { FaCheckSquare, FaBullseye, FaGlobeAmericas, FaHourglassHalf } from 'react-icons/fa';
 import './App.css';
 
 function App() {
@@ -39,12 +40,19 @@ function App() {
           >
             <FaGlobeAmericas /> Travel
           </button>
+          <button 
+            className={`nav-btn ${activeTab === 'life' ? 'active' : ''}`}
+            onClick={() => setActiveTab('life')}
+          >
+            <FaHourglassHalf /> Life
+          </button>
         </nav>
 
         <main className="app-main">
           {activeTab === 'habits' && <HabitTracker />}
           {activeTab === 'goals' && <GoalBoard />}
           {activeTab === 'travel' && <TravelList />}
+          {activeTab === 'life' && <LifeCountdown />}
         </main>
       </div>
     </ThemeProvider>
